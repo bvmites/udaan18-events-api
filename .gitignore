@@ -1,0 +1,8 @@
+# Environment
+.env
+
+# node packages
+node_modules
+
+# IDEA
+.idea

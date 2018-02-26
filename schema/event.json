@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "eventName": {
+      "type": "string"
+    },
+    "eventType": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "teamSize": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    },
+    "managers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rounds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_id",
+    "eventName",
+    "eventType",
+    "department",
+    "category",
+    "tagline",
+    "description",
+    "teamSize",
+    "price",
+    "managers",
+    "rounds"
+  ]
+}
