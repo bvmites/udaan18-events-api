@@ -1,7 +1,7 @@
 const ObjectId = require('mongodb').ObjectId;
 
 module.exports = (db) => ({
-    add: (event) => {
+    create: (event) => {
         const newEvent = {participants: [], ...event};
         return db.collection('events').insertOne(newEvent);
     },

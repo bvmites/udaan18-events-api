@@ -19,6 +19,7 @@ module.exports = (db) => {
                 error.code = 'ValidationException';
                 throw error;
             }
+            const result = await Event.create(newEvent);
             response.status(200).json({message: 'Event created'});
         } catch (e) {
             if (e.code === 'ValidationException') {

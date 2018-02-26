@@ -7,7 +7,7 @@ module.exports = (db) => ({
     },
     create: ({username, password}) => {
         const salt = crypto.randomBytes(512).toString('hex');
-        const iterations = (Math.random() * 500) + 500;
+        const iterations = Math.floor((Math.random() * 500) + 500);
         const hashedPassword = hashPassword(password, salt, iterations);
         return db.collection('users').insertOne({
             _id: username,
