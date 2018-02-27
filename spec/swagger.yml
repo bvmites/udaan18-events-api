@@ -155,9 +155,14 @@ definitions:
       teamSize:
         type: integer
         format: int32
-      price:
+      entryFee:
         type: integer
         format: int32
+      prizeMoney:
+        type: array
+        items:
+          type: integer
+          format: int32
       managers:
         type: array
         items:
@@ -182,9 +187,14 @@ definitions:
       teamSize:
         type: integer
         format: int32
-      price:
+      entryFee:
         type: integer
         format: int32
+      prizeMoney:
+        type: array
+          items:
+            type: integer
+            format: int32
       managers:
         type: array
         items:

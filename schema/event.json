@@ -27,8 +27,14 @@
     "teamSize": {
       "type": "number"
     },
-    "price": {
+    "entryFee": {
       "type": "number"
+    },
+    "prizeMoney": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
     },
     "managers": {
       "type": "array",
