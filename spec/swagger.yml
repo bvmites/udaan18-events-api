@@ -148,8 +148,6 @@ definitions:
         type: string
       department:
         type: string
-      category:
-        type: string
       tagline:
         type: string
       description:
@@ -176,8 +174,6 @@ definitions:
       eventType:
         type: string
       department:
-        type: string
-      category:
         type: string
       tagline:
         type: string

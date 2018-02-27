@@ -13,9 +13,6 @@
     "department": {
       "type": "string"
     },
-    "category": {
-      "type": "string"
-    },
     "tagline": {
       "type": "string"
     },
@@ -54,7 +51,6 @@
     "eventName",
     "eventType",
     "department",
-    "category",
     "tagline",
     "description",
     "teamSize",

@@ -9,7 +9,7 @@ module.exports = (db) => ({
     update: (event) => {
         const {_id} = event;
         delete event._id;
-        return db.collection('events').update({_id}, {'$set': {...event}}, {upsert: false});
+        return db.collection('events').update({_id: ObjectId(_id)}, {'$set': {...event}}, {upsert: false});
     },
 
     getAll: () => {
