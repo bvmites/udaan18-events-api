@@ -41,7 +41,7 @@
           },
           "phone": {
             "type": "string",
-            "minLength": 1
+            "minLength": 10
           }
         }
       }
@@ -50,7 +50,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "minLength": 10
+        "minLength": 1
       }
     }
   },
