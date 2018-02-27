@@ -67,7 +67,8 @@
     "tagline",
     "description",
     "teamSize",
-    "price",
+    "entryFee",
+    "prizeMoney",
     "managers",
     "rounds"
   ]
