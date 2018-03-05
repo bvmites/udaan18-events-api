@@ -21,9 +21,10 @@ dotenv.config();
 
     const client = await MongoClient.connect(process.env.DB);
     const db = client.db('udaan18');
+    const userDb = client.db('users');
     console.log('Connected to database');
     app.use('/events', auth, events(db));
-    app.use('/users', users(db));
+    app.use('/users', users(userDb));
 
 })();
 
