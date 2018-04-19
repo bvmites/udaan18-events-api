@@ -192,9 +192,9 @@ definitions:
         format: int32
       prizeMoney:
         type: array
-          items:
-            type: integer
-            format: int32
+        items:
+          type: integer
+          format: int32
       managers:
         type: array
         items:

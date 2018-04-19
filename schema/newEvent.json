@@ -44,7 +44,8 @@
           },
           "phone": {
             "type": "string",
-            "minLength": 10
+            "minLength": 10,
+            "maxLength": 10
           }
         }
       }
